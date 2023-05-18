@@ -30,12 +30,12 @@
             <version>2.19.1</version>
             <configuration>
               <properties>
+		<source>1.8</source>
+            	<target>1.8</target>
                 <property>
                   <name>listener</name>
                   <value>com.hp.mqm.listeners.surefire.JUnitListener</value>
                 </property>
-                  <maven.compiler.source>1.8</maven.compiler.source>
-		  <maven.compiler.target>1.8</maven.compiler.target>
               </properties>
             </configuration>
           </plugin>
